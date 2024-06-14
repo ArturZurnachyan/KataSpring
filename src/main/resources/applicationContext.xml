@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans  xmlns="http://www.springframework.org/schema/beans"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xmlns:context="http://www.springframework.org/schema/context"
+        xsi:schemaLocation="http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        http://www.springframework.org/schema/context/spring-context.xsd">
+
+    <context:component-scan base-package="Spring.practice.Test"/>
+
+<!--    <context:property-placeholder location="classpath:musicPlayer.properties"/>-->
+
+
+<!--    <bean id="musicBean"-->
+<!--          class="Spring.practice.Test.ClassicalMusic"-->
+<!--          init-method="doMyInit"-->
+<!--          destroy-method="doMyDestroy"-->
+<!--    factory-method="getClassicalMusic">-->
+
+<!--    </bean>-->
+
+
+<!--    <bean id="testBean2"-->
+<!--          class="Spring.practice.Test.RockMusic">-->
+<!--    </bean>-->
+
+<!--    <bean id="testBean3"-->
+<!--          class="Spring.practice.Test.PopMusic">-->
+<!--    </bean>-->
+
+
+<!--    <bean id="musicPlayer"-->
+<!--          class="Spring.practice.Test.MusicPlayer">-->
+<!--        <property name="musicList">-->
+<!--        <list>-->
+<!--            <ref bean="testBean1"/>-->
+<!--            <ref bean="testBean2"/>-->
+<!--            <ref bean="testBean3"/>-->
+<!--        </list>-->
+<!--        </property>-->
+<!--        -->
+<!--        <property name="name" value="${musicPlayer.name}"/>-->
+<!--        <property name="volume" value="${musicPlayer.volume}"/>-->
+<!--    </bean>-->
+
+</beans>
